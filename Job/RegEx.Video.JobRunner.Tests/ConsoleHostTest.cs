@@ -48,5 +48,11 @@ namespace RegEx.Video.JobRunner.Tests
             ConsoleHost.Main(null);
             
         }
+
+        [TestMethod]
+        public void TestMethodMainRunsWithoutExceptionWithNullArgsAndIConsoleSupplied(){
+            IConsole console = new IConsoleFactory().GetIConsoleInstance();
+            ConsoleHost.Main(null,console);
+        }
     }
 }

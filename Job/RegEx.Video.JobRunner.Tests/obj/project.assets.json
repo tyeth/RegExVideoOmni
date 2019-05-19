@@ -5821,11 +5821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj",
       "projectName": "RegEx.Video.JobRunner.Tests",
-      "projectPath": "c:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj",
+      "projectPath": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj",
       "packagesPath": "C:\\Users\\Tyeth\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
