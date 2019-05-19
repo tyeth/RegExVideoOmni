@@ -1,5 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RegEx.Video.JobRunner;
+using Rhino.Mocks;
+
 namespace RegEx.Video.JobRunner.Tests
 {
     [TestClass]
@@ -53,6 +55,15 @@ namespace RegEx.Video.JobRunner.Tests
         public void TestMethodMainRunsWithoutExceptionWithNullArgsAndIConsoleSupplied(){
             IConsole console = IConsoleFactory.GetIConsoleInstance();
             ConsoleHost.Main(null,console);
+        }
+
+        [TestMethod]
+        public void TestMethodMainRunsWithoutExceptionWithNullArgsCallsThroughIConsole(){
+            var mockConsole = MockRepository.GenerateMock<IConsole>();
+            mockConsole.Expect(x=>x.WriteLine(Arg<string>.Is.Anything)).Repeat.Times(2);
+            ConsoleHost.Main(null,mockConsole);
+            ConsoleHost.Main(null);
+            mockConsole.VerifyAllExpectations();
         }
     }
 }

@@ -636,6 +636,15 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
+      "RhinoMocks/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net/Rhino.Mocks.dll": {}
+        },
+        "runtime": {
+          "lib/net/Rhino.Mocks.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2707,6 +2716,18 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "RhinoMocks/3.6.1": {
+      "sha512": "0HjdR7PVVUDz9Db5cLzU0Dquay8MhoCoZ8PJRZOo10Iysq4m+mjl2aaxc4eWztvZ6S1v/NYW5xv1qul0ToN21w==",
+      "type": "package",
+      "path": "rhinomocks/3.6.1",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net/Rhino.Mocks.dll",
+        "lib/net/Rhino.Mocks.xml",
+        "rhinomocks.3.6.1.nupkg.sha512",
+        "rhinomocks.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -5811,7 +5832,8 @@
       "MSTest.TestFramework >= 1.3.2",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "RegEx.Video.JobRunner >= 1.0.0"
+      "RegEx.Video.JobRunner >= 1.0.0",
+      "RhinoMocks >= 3.6.1"
     ]
   },
   "packageFolders": {
@@ -5876,6 +5898,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "RhinoMocks": {
+            "target": "Package",
+            "version": "[3.6.1, )"
           }
         },
         "imports": [
@@ -5885,5 +5911,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RhinoMocks 3.6.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
+      "libraryId": "RhinoMocks",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }
