@@ -2,3 +2,16 @@ C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\obj\D
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.AssemblyInfoInputs.cache
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.AssemblyInfo.cs
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\bin\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.deps.json
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\bin\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.runtimeconfig.json
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\bin\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.runtimeconfig.dev.json
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\bin\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.dll
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\bin\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.pdb
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\bin\Debug\netcoreapp2.2\RegEx.Video.JobRunner.dll
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\bin\Debug\netcoreapp2.2\RegEx.Video.JobRunner.pdb
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.csproj.CopyComplete
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.dll
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner.Tests\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.Tests.pdb

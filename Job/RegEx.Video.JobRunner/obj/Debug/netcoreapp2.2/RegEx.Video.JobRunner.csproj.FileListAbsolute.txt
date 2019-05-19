@@ -8,3 +8,4 @@ C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\obj\Debug\n
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.AssemblyInfo.cs
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.dll
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.pdb
+C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.csprojAssemblyReference.cache
