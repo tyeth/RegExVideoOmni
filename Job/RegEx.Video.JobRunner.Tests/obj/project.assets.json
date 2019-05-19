@@ -5844,8 +5844,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj": {
-              "projectPath": "c:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj"
+            "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj": {
+              "projectPath": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj"
             }
           }
         }

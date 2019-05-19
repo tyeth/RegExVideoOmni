@@ -3,7 +3,6 @@ C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\bin\Debug\n
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\bin\Debug\netcoreapp2.2\RegEx.Video.JobRunner.runtimeconfig.dev.json
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\bin\Debug\netcoreapp2.2\RegEx.Video.JobRunner.dll
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\bin\Debug\netcoreapp2.2\RegEx.Video.JobRunner.pdb
-C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.csprojAssemblyReference.cache
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.csproj.CoreCompileInputs.cache
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.AssemblyInfoInputs.cache
 C:\Users\Tyeth\source\repos\RegExVideoOmni\Job\RegEx.Video.JobRunner\obj\Debug\netcoreapp2.2\RegEx.Video.JobRunner.AssemblyInfo.cs

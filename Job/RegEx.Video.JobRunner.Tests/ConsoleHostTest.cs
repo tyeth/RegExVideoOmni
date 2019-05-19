@@ -51,7 +51,7 @@ namespace RegEx.Video.JobRunner.Tests
 
         [TestMethod]
         public void TestMethodMainRunsWithoutExceptionWithNullArgsAndIConsoleSupplied(){
-            IConsole console = new IConsoleFactory().GetIConsoleInstance();
+            IConsole console = IConsoleFactory.GetIConsoleInstance();
             ConsoleHost.Main(null,console);
         }
     }
