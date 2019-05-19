@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RegEx.Video.JobRunner;
-using Rhino.Mocks;
+using Moq;
 
 namespace RegEx.Video.JobRunner.Tests
 {
@@ -59,11 +59,15 @@ namespace RegEx.Video.JobRunner.Tests
 
         [TestMethod]
         public void TestMethodMainRunsWithoutExceptionWithNullArgsCallsThroughIConsole(){
-            var mockConsole = MockRepository.GenerateMock<IConsole>();
-            mockConsole.Expect(x=>x.WriteLine(Arg<string>.Is.Anything)).Repeat.Times(2);
-            ConsoleHost.Main(null,mockConsole);
+            //https://github.com/Moq/moq4/wiki/Quickstart
+            var mockConsole = new Mock<IConsole>();
+            mockConsole.Setup(x => x.WriteLine(It.IsAny<string>()));
+          
+            ConsoleHost.Main(null,mockConsole.Object);
             ConsoleHost.Main(null);
-            mockConsole.VerifyAllExpectations();
+
+            mockConsole.Verify(x => x.WriteLine(It.IsAny<string>()), Times.Exactly(2));
+
         }
     }
 }

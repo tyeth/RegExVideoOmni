@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj",
+        "projectName": "RegEx.Video.JobRunner.Tests",
+        "projectPath": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj",
+        "packagesPath": "C:\\Users\\Tyeth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tyeth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj": {
+                "projectPath": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj",
+        "projectName": "RegEx.Video.JobRunner",
+        "projectPath": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj",
+        "packagesPath": "C:\\Users\\Tyeth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tyeth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
