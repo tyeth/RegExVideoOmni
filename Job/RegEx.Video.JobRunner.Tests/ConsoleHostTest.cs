@@ -1,3 +1,4 @@
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RegEx.Video.JobRunner;
 using Moq;
@@ -67,6 +68,25 @@ namespace RegEx.Video.JobRunner.Tests
             ConsoleHost.Main(null);
 
             mockConsole.Verify(x => x.WriteLine(It.IsAny<string>()), Times.Exactly(2));
+        }
+
+        [TestMethod]
+        [DataRow("Creates an input json",DisplayName = "Help for Create")]
+        [DataRow("Upload a video file", DisplayName = "Help for Upload")]
+        [DataRow("Download an output json", DisplayName = "Help for Download")]
+        public void TestMethodMainReturnsHelpIfNoArgs(string textToFind)
+        {
+            var mockConsole = new Mock<IConsole>();
+            mockConsole.Setup(
+                x=>x.WriteLine(
+                    It.Is<string>(y=>y.Contains("help",StringComparison.InvariantCultureIgnoreCase) &&
+                                     y.Contains(textToFind,StringComparison.InvariantCultureIgnoreCase))
+                )
+            ).Verifiable();
+            
+            ConsoleHost.Main(null,mockConsole.Object);
+
+            mockConsole.Verify();
 
         }
     }
