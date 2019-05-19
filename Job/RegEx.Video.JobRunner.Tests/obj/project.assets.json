@@ -1617,6 +1617,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "RegEx.Video.JobRunner/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/RegEx.Video.JobRunner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RegEx.Video.JobRunner.dll": {}
+        }
       }
     }
   },
@@ -5788,6 +5798,11 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "RegEx.Video.JobRunner/1.0.0": {
+      "type": "project",
+      "path": "../RegEx.Video.JobRunner/RegEx.Video.JobRunner.csproj",
+      "msbuildProject": "../RegEx.Video.JobRunner/RegEx.Video.JobRunner.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5795,7 +5810,8 @@
       "MSTest.TestAdapter >= 1.3.2",
       "MSTest.TestFramework >= 1.3.2",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "RegEx.Video.JobRunner >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5805,11 +5821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj",
       "projectName": "RegEx.Video.JobRunner.Tests",
-      "projectPath": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj",
+      "projectPath": "c:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\RegEx.Video.JobRunner.Tests.csproj",
       "packagesPath": "C:\\Users\\Tyeth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\obj\\",
+      "outputPath": "c:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5827,7 +5843,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj": {
+              "projectPath": "c:\\Users\\Tyeth\\source\\repos\\RegExVideoOmni\\Job\\RegEx.Video.JobRunner\\RegEx.Video.JobRunner.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

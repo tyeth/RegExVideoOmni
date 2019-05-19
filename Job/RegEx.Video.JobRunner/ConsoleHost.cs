@@ -2,9 +2,9 @@
 
 namespace RegEx.Video.JobRunner
 {
-    class Program
+    public static class ConsoleHost
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
         }
